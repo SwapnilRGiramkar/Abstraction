@@ -1,0 +1,35 @@
+Defination-->
+	-Abstraction is a designed process which helps a Service Specifier to Specify the most 
+	essential feature of the project without providing their implimentation details.
+**Methods are Classified into two types-->
+1)Concrete Methods.
+2)Abstract Methods.
+
+1)Concrete Methods-->
+	Method with implimentation details i.e. Method with its body.
+2)Abstact Method-->
+	Method without any implimentation details(body) and prefix with the abstract keyword/
+	Access Modifier and ending with the semicolon its known as Abstract Method.
+	Syntax-->
+	Access-Modifier abstract return-type Method-Name(Formal-parameters);
+	example-->
+	public abstract void addition(int a,int b);
+**Que-->How to achieve Abstraction?
+Answer-->1)By using Abstract class 
+	 2)by Using Interface
+
+**Classes are classified into two types-->
+1)Abstract class
+2)Concrete class
+
+1)Abstract class-->
+	if a class contains a one abstract methods either declared or inherited,then it is 
+	mandatory to make a class abstract else we get a compile time error.
+--A class which is prefix with abstract keyword or access-modifier this classs called as abstract 
+  class.
+
+2)Concrete class-->the class which is not prefix with abstract class is known as Concrete class.
+
+**Note--->
+-we cannot instanciation (create object) of an abstract class but we can have the Constructor 
+in a abstract class.
